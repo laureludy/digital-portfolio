@@ -1,0 +1,80 @@
+/*This is an example of an external style sheet*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.containersticky{
+    position:fixed;
+    width: 100%;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+.nav{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24;
+    padding: 2px;
+    background-color: #1C9978;
+    color: white;
+}
+.nav:hover{
+        color: #FFCF30;
+    }
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 1.5;
+    text-align: center
+    vertical-align: middle;
+}
+.aboutme{
+    padding-top: 50px;
+    vertical-align: middle;
+}
+.AcademicProfessional{
+    background-color: #13604A;
+    color: white;
+}
+.ContactInformation{
+    background-color: #13604A;
+    color: white;
+}
+#ContactInformation {
+    position: relative;
+    left: 35%;
+}
+.col{
+    border: 2px #044531 solid;
+}
+p{
+    font-size: 18px;
+}
+.link{
+    color: #FFCF30;
+}
+.link:visited{
+    color: #FFBA1C;
+}
+.link:hover {
+    color:#FFBA1C;
+}
+#Photo{
+    background-image: ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.Education{
+    text-align: center;
+    background-color: #13604A;
+    color: white;
+}
+.Universities{
+    text-align: center;
+}
+#logo{
+    margin-top: 50px;
+}
